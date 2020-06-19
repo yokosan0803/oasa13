@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 
+<title>ログイン江別散歩 </title>
+</head>
+
+<body>
+
+
+<form action="/login" method="post">
+  email アドレス：<input type="text" name="name"><br>
+  パスワード：<input type="password" name="password"><br>
+  <input type="submit" value="ログイン">
+</form>
+<P>※新規登録してみたい方はこちら</P>
+<button><a href ="/regist">新規アカウント登録</a></button>
 
 
 
