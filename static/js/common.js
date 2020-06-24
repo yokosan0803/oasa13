@@ -187,7 +187,7 @@ $(function(){
         '森林浴でリフレッシュできるよ？'
         ],
 
-        ['<a href="#"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
+        ['<a href="./currypandora.html"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
         'カレーパンドラ江別店',
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
