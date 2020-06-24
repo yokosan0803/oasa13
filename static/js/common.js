@@ -10,32 +10,32 @@ $(function(){
     var aryQuiz = [];
     aryQuiz.push(
         {
-            quizImg : '<img class="quizimg_css" src="./img/pandora_carry.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/pandora_carry.jpg" alt="">',
             question : 'このカレーが食べられるのは？',
             answer : ['カレー パンドラ', 'セイコーマート', 'ウポポイ', 'はせがわストア']
         }
         ,{
-            quizImg : '<img class="quizimg_css" src="./img/ebetsustreet.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/ebetsustreet.jpg" alt="">',
             question : 'この商店街の名前は？',
             answer : ['大麻銀座商店街', '本町商店街', '狸小路商店街', '一番街商店街']
         }
         ,{
-            quizImg : '<img class="quizimg_css" src="./img/nopporo_park.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/nopporo_park.jpg" alt="">',
             question : 'この公園の名前は？',
             answer : ['野幌森林公園', '大通公園', 'すなばこパーク', '大麻中央公園']
         }
         ,{
-            quizImg : '<img class="quizimg_css" src="./img/ogatosan.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/ogatosan.jpg" alt="">',
             question : 'このお方は？',
             answer : ['おがと先生', 'まっちま先生', 'にんじゃわんこ', 'ひつじ仙人']
         }
         ,{
-            quizImg : '<img class="quizimg_css" src="./img/ebetsu_glass.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/ebetsu_glass.jpg" alt="">',
             question : 'この建物の名前は？',
             answer : ['江別市ガラス工芸館', 'つぼ八大麻店', '旧町村農場', 'セイコーマート']
         }
         ,{
-            quizImg : '<img class="quizimg_css" src="./img/sunabako.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/sunabako.jpg" alt="">',
             question : '北海道の冬に欠かせないこれは？',
             answer : ['砂箱', 'こたつ', '郵便ポスト', 'セイコーマート']
         }
@@ -139,39 +139,92 @@ $(function(){
         return arr;
     }
 
-    var images = [
-        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="./img/nopporo_park.jpg" alt=""></a>',
+    // ----------------------------------------------------------------
+    // 車で大麻
+
+    var carChoice = [
+        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
         '道立自然公園野幌森林公園',
         '森林浴でリフレッシュできるよ？'
         ],
 
-        ['<a href="#"><img class="random_img_css" src="./img/pandora_carry.jpg" alt=""></a>', 
+        ['<a href="./currypandora.html"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
         'カレーパンドラ江別店',
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
-        ['<a href="#"><img class="random_img_css" src="./img/ebetsu_glass.jpg" alt=""></a>',
+        ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ]
     ];
 
+    var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
+    $('.car').find('#car_img1').html(randCar[0]);
+    $('.car').find('#place_name1').text(randCar[1]);
+    $('.car').find('#words1').text(randCar[2]);
     
-    var randImg = images[Math.floor(Math.random() * images.length)];
-    $('.car').find('#car_img1').html(randImg[0]);
-    $('.car').find('#place_name1').text(randImg[1]);
-    $('.car').find('#words1').text(randImg[2]);
+
+
+    var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
+    $('.car').find('#car_img2').html(randCar[0]);
+    $('.car').find('#place_name2').text(randCar[1]);
+    $('.car').find('#words2').text(randCar[2]);
+
+
+    var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
+    $('.car').find('#car_img3').html(randCar[0]);
+    $('.car').find('#place_name3').text(randCar[1]);
+    $('.car').find('#words3').text(randCar[2]);
+
+
+    // ----------------------------------------------------------------
+    // 徒歩で大麻
+
+    var warkingChoice = [
+        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
+        '道立自然公園野幌森林公園',
+        '森林浴でリフレッシュできるよ？'
+        ],
+
+        ['<a href="#"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
+        'カレーパンドラ江別店',
+        'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
+        ],
+
+        ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+        '江別市ガラス工芸館',
+        '吹きガラス体験してみる？'
+        ]
+    ];
+
+    var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
+    $('.wark').find('#wark_img1').html(randWark[0]);
+    $('.wark').find('#wark_place_name1').text(randWark[1]);
+    $('.wark').find('#wark_words1').text(randWark[2]);
     
 
 
-    var randImg = images[Math.floor(Math.random() * images.length)];
-    $('.car').find('#car_img2').html(randImg[0]);
-    $('.car').find('#place_name2').text(randImg[1]);
-    $('.car').find('#words2').text(randImg[2]);
+    var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
+    $('.wark').find('#wark_img2').html(randWark[0]);
+    $('.wark').find('#wark_place_name2').text(randWark[1]);
+    $('.wark').find('#wark_words2').text(randWark[2]);
 
 
-    var randImg = images[Math.floor(Math.random() * images.length)];
-    $('.car').find('#car_img3').html(randImg[0]);
-    $('.car').find('#place_name3').text(randImg[1]);
-    $('.car').find('#words3').text(randImg[2]);
+    var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
+    $('.wark').find('#wark_img3').html(randWark[0]);
+    $('.wark').find('#wark_place_name3').text(randWark[1]);
+    $('.wark').find('#wark_words3').text(randWark[2]);
+
+
+
+
+
+
+
+
+
+
+
 });
+
