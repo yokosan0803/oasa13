@@ -1,0 +1,18 @@
+#店舗情報の型
+
+{% extends "base.html" %}
+{% block content %}
+<h1></h1>
+<img src="" alt="">
+<div>
+    <p>住所：</p>
+    <p>お問い合わせ：<a href="tel:"></a></p>
+    <p>営業時間：</p>
+    <p>アクセス：</p>
+    <p>公式HP：<a href=""></a></p>
+</div>
+<p></p>
+
+
+
+{% endblock %}

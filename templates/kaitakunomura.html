@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="../static/css/details.css" media="screen and (min-width:480px)">
+<link rel="stylesheet" href="../static/css/details_sp.css" media="screen and (max-width:480px)">
+<h1>北海道開拓の村</h1>
+<div class="info">
+    <img src="../img/kaitakunomura.jpg" alt="">
+    <div>    
+        <p>住所：北海道札幌市厚別区厚別町５０−１</p>
+        <p>お問い合わせ：<a href="tel:">011-898-2692</a></p>
+        <div>
+            <hh2>営業時間：</hh2>
+            <img src="../img/kaitakunomura_time.png" alt="">
+        </div>
+        <div>
+            <h2>アクセス：</h2>
+            <p>JRをご利用の方～札幌駅から15分→野幌駅で＜JRバス乗り換え＞11分→セラミックアートセンター前下車</p>
+            <p>バス路線バス路線は次の2系統がご利用できます。（どちらも野幌駅経由です。）</p>
+            <li>新29／新札幌駅～野幌総合運動公園</li>
+            <li>江92／江別駅～北広島駅</li>
+            <p>運行時刻についてはＪＲ北海道バス厚別営業所(<a href="tel:">011－891－2544</a>)かＪＲ野幌駅（<a href="tel:">011－382－2478</a>）へお尋ねください。</p>
+        </div>
+        <p>公式HP：<a href="http://www.kaitaku.or.jp/">北海道開拓の村</a></p>
+    </div>
+</div>
+<p></p>
+<button type="button" onclick="onclick=location.href='./list.html'">紹介されている店・施設の一覧に戻る</button>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.677150648483!2d141.4948068153457!3d43.048223879146654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2ceb651ae381%3A0xaaa05e70a99cab96!2z5YyX5rW36YGT6ZaL5ouT44Gu5p2R!5e0!3m2!1sja!2sjp!4v1592827236586!5m2!1sja!2sjp" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+{% endblock %}

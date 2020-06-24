@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="../static/css/details.css" media="screen and (min-width:480px)">
+<link rel="stylesheet" href="../static/css/details_sp.css" media="screen and (max-width:480px)">
+<h1>北海道博物館</h1>
+<div class="info">
+    <img src="../img/hokkaido_museum.jpg" alt="">
+    <div>
+        <p>住所：北海道札幌市厚別区厚別町５３−２</p>
+        <p>お問い合わせ：<a href="tel:">011-898-0466</a></p>
+        <div>
+            <h2>営業時間：</h2>	
+            <p>9:30～17:00（5〜9月）9:30～16:30（10〜4月）</p> 
+            <p>※入館は閉館の30分前まで</p>
+        </div>
+        <div>
+            <h2>アクセス：</h2>
+            <p>JRをご利用の方～札幌駅から15分→野幌駅で＜JRバス乗り換え＞11分→セラミックアートセンター前下車</p>
+            <p>バス路線バス路線は次の2系統がご利用できます。（どちらも野幌駅経由です。）</p>
+            <li>新29／新札幌駅～野幌総合運動公園</li>
+            <li>江92／江別駅～北広島駅</li>
+            <p>運行時刻についてはＪＲ北海道バス厚別営業所(<a href="tel:">011－891－2544</a>)かＪＲ野幌駅（<a href="tel:">011－382－2478</a>）へお尋ねください。</p>
+        </div>
+        <p>公式HP：<a href="http://www.hm.pref.hokkaido.lg.jp/">北海道博物館</a></p>
+    </div>
+</div>
+<p></p>
+<button type="button" onclick="onclick=location.href='./list.html'">紹介されている店・施設の一覧に戻る</button>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.4437426527393!2d141.4944763153458!3d43.053133979146416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2ced7f04961f%3A0x34fd5ed406625389!2z5YyX5rW36YGT5Y2a54mp6aSo!5e0!3m2!1sja!2sjp!4v1592826414018!5m2!1sja!2sjp" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+{% endblock %}
