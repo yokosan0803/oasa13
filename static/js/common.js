@@ -143,7 +143,7 @@ $(function(){
     // 車で大麻
 
     var carChoice = [
-        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
+        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img_spot/sinrinkouen.jpg" alt=""></a>',
         '道立自然公園野幌森林公園',
         '森林浴でリフレッシュできるよ？'
         ],
@@ -156,6 +156,38 @@ $(function(){
         ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/centennial_monument.jpg"></a>',
+        '百年記念塔',
+        '塔に立ち入ることはできないけど、札幌市街地を一望できるよ！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ceramicartcenter.jpg"></a>',
+        'セラミックアートセンター',
+        '江別市の特産品「レンガ」にまつわる展示がたくさん！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/earthdream.jpg"></a>',
+        '角山アースドリーム',
+        'いろんな動物と触れ合える体験型牧場！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ebetsu_tutaya.jpg"></a>',
+        '江別 蔦屋書店',
+        '北海道に２つしかない蔦屋書店に一つ！江別に唯一のスタバもあるよ！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/sunabacoebetsu.jpg"></a>',
+        'sunabaco ebetsu',
+        '無料で使えるコアワーキングスペース！土日にはいろんなイベントも開催！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/houraiken.jpg"></a>',
+        '宝来軒菓子舗',
+        '苺大福などの餅菓子がおすすめ！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ruelle.jpg"></a>',
+        'パティスリー リュエル (Pâtisserie Ruelle)',
+        '本格的なケーキを低価格で提供！'
+        ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
+        '大麻銀座商店街',
+        '月1でブックストリートを開催！'
         ]
     ];
 
