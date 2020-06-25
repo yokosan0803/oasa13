@@ -189,6 +189,10 @@ $(function(){
         '大麻銀座商店街',
         '月1でブックストリートを開催！'
         ]
+        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ebri.jpg"></a>',
+        'EBRI (エブリ)',
+        '江別のお店がたくさん！新鮮な野菜、アンテナショップも！'
+        ]
     ];
 
     var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
