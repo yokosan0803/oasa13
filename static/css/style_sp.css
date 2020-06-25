@@ -260,3 +260,24 @@ h1 {
 	color: rgb(214, 94, 14);
 	padding: 20px;
 }
+.header {
+	background-color:darkslategray;
+	color: #fff;
+	height: 50px;
+	width: 100%;
+
+}
+
+.header-logo {
+	float: left;
+	color: tomato;
+	font-size: 18px;
+	padding: 10px 15px;
+	font-family:sans-serif;
+	font-weight: bold;
+}
+
+.header-list li {
+	float: left;
+	padding: 10px 10px;
+}
