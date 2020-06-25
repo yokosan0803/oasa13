@@ -35,4 +35,204 @@ mapDiv{
 	width: 100%;
 	height: 400px;
 }
+.header {
+	background-color:darkslategray;
+	color: #fff;
+	height: 50px;
+	width: 100%;
 
+}
+
+.header-logo {
+	float: left;
+	color: tomato;
+	font-size: 18px;
+	padding: 10px 15px;
+	font-family:sans-serif;
+	font-weight: bold;
+}
+
+.header-list li {
+	float: left;
+	padding: 10px 10px;
+}
+
+
+
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+
+/* --------------------------------------------------- */
+
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+
+
+/*ドロワー用でコメントアウト or 削除*/
+
+/*header {
+	height: 60px;
+	background: #eeeaec;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+header ul {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+header li {
+	color: #acacac;
+	width: 20%;
+	line-height: 60px;
+	transition: 0.2s;  メニューをホバーした時の変化時間
+}
+
+header li:hover{
+	メニューをホバーしたときに色が変わる
+	color:#111;
+}*/
+
+.container {
+	display: flex;
+}
+
+
+.box_1 {
+	background-color:ghostwhite;
+	margin-top: 1px;
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+	height: 300px;
+}
+
+.box_2 {
+	background-color: gray;
+	margin-top: 1px;
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+}
+
+.shoukai {
+	height: 300px;
+	background-color: olive;
+	width: 100%;
+	display: flex;
+	padding: 10px;
+}
+
+.shoukai p {
+	font-size: 20px;
+	padding: 30px;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: "Lucida Grande";
+	background-color: rgb(94, 96, 100);
+}
+
+h2 {
+	background-color: yellowgreen;
+	font-size: 20px;
+}
+
+/* section h1 {
+	font-size: 100px;
+	line-height: 50px;
+	margin: 100 0 80px 0;
+	font-weight: 200;
+}
+.box {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#sec1 {
+	background: url(../img/photo_01.png) no-repeat center center;
+	height: 400px;
+	background-size: cover;
+} */
+h1 {
+	font-size: 24px;
+	color: rgb(214, 94, 14);
+	padding: 20px;
+}
+
+/* #sec1 h1 br {
+	display: none; */
+/* スマートフォンとPCでは画面幅が違うので、PC用のレイアウトでいれた改行が */
+/* スマートフォン用のレイアウトできれいに改行されるとは限らないので none で消す */
+/* } */
+/* #sec2 .flex_area {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sec2 .flex_area div h2 {
+	font-size: 50px;
+	margin: 20px 0 20px 0;
+}
+#sec2 .flex_area div p {
+	font-size: 14px;
+	line-height: 1.8;
+	margin-bottom: 14px; */
+/* } */
+
+
+/* .bbs_content{
+	border-bottom:1px solid #111;
+	width:60%;
+	margin:30px auto 0;
+}
+
+#attention{
+	color: red;
+	font-weight: bold;
+	display: none;
+} */
+
+
+
+
+
+
+/* こちらは現在使われておりません */
+/* .bg-red {
+  background: red;
+}
+
+.bg-blue {
+	background: blue;
+} */
+.footer {
+	background-color: #ee710b69;
+	width: 100%;
+	height: 100px;
+}
