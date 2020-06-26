@@ -205,7 +205,7 @@ $(function(){
     // 車で大麻
 
     var carChoice = [
-        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img_spot/sinrinkouen.jpg" alt=""></a>',
+        ['<a href="./sinrikouen.html"><img class="random_img_css" src="../static/img_spot/sinrinkouen.jpg" alt=""></a>',
         '道立自然公園野幌森林公園',
         '森林浴でリフレッシュできるよ？'
         ],
@@ -215,46 +215,115 @@ $(function(){
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
+<<<<<<< HEAD
+        ['<a href="./garasu_kougeikan"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+=======
         ['<a href="/garasu_kougeikan"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+>>>>>>> f2c267aadfa4d3ea222ac6d24e703f1fb88a3d52
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/centennial_monument.jpg"></a>',
-        '百年記念塔',
+        ],
+
+        ['<a herf="./centennial_monument.html"><img class="ramdom_img_css" src="../static/img_spot/centennial_monument.jpg"></a>',
+        '北海道百年記念塔',
         '塔に立ち入ることはできないけど、札幌市街地を一望できるよ！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ceramicartcenter.jpg"></a>',
-        'セラミックアートセンター',
+        ],
+
+        ['<a herf="./ceramicartcenter.html"><img class="ramdom_img_css" src="../static/img_spot/ceramicartcenter.jpg"></a>',
+        '江別市セラミックアートセンター',
         '江別市の特産品「レンガ」にまつわる展示がたくさん！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/earthdream.jpg"></a>',
+        ],
+
+        ['<a herf="./earthdream.html"><img class="ramdom_img_css" src="../static/img_spot/earthdream.jpg"></a>',
         '角山アースドリーム',
         'いろんな動物と触れ合える体験型牧場！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ebetsu_tutaya.jpg"></a>',
+        ],
+
+        ['<a herf="./ebetsu_tutaya.html"><img class="ramdom_img_css" src="../static/img_spot/ebetsu_tutaya.jpg"></a>',
         '江別 蔦屋書店',
         '北海道に２つしかない蔦屋書店に一つ！江別に唯一のスタバもあるよ！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/sunabacoebetsu.jpg"></a>',
+        ],
+
+        ['<a herf="./sunabacoebetsu.html"><img class="ramdom_img_css" src="../static/img_spot/sunabacoebetsu.jpg"></a>',
         'sunabaco ebetsu',
         '無料で使えるコアワーキングスペース！土日にはいろんなイベントも開催！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/houraiken.jpg"></a>',
+        ],
+
+        ['<a herf="./houraiken.html"><img class="ramdom_img_css" src="../static/img_spot/houraiken.jpg"></a>',
         '宝来軒菓子舗',
         '苺大福などの餅菓子がおすすめ！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ruelle.jpg"></a>',
+        ],
+
+        ['<a herf="./ruelle.html"><img class="ramdom_img_css" src="../static/img_spot/ruelle.jpg"></a>',
         'パティスリー リュエル (Pâtisserie Ruelle)',
         '本格的なケーキを低価格で提供！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
+        ],
+
+        ['<a herf="./ginza_shoppingstreet.html"><img class="ramdom_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
         '大麻銀座商店街',
         '月1でブックストリートを開催！'
-        ]
-        ['<a herf="#"><img class="ramdom_img_css" src="../static/img_spot/ebri.jpg"></a>',
+        ],
+
+        ['<a herf="./ebri.html"><img class="ramdom_img_css" src="../static/img_spot/ebri.jpg"></a>',
         'EBRI (エブリ)',
         '江別のお店がたくさん！新鮮な野菜、アンテナショップも！'
+        ],
+        
+        ['<a herf="./hokkaido_museum.html"><img class="ramdom_img_css" src="../static/img_spot/hokkaido_museum.jpg"></a>',
+        '北海道博物館',
+        '北海道の歴史・地理を様々な角度から学べる！'
+        ],
+
+        ['<a herf="./tondenfarm.html"><img class="ramdom_img_css" src="../static/img_spot/tondenfarm.jpg"></a>',
+        'トンデンファーム',
+        '動物とのふれあい・レストランで本格的なジンギスカンが楽しめる！'
+        ],
+
+        ['<a herf="./kaitakunomura.html"><img class="ramdom_img_css" src="../static/img_spot/kaitakunomura.jpg"></a>',
+        '北海道開拓の村',
+        '明治・大正時代の貴重な建造物がたくさん！朝ドラ・人気漫画等の聖地として大人気！'
+        ],
+
+        ['<a herf="./yumetikara.html"><img class="ramdom_img_css" src="../static/img_spot/yumetikara.jpg"></a>',
+        'ゆめちからテラス',
+        '大人気パン・地元の新鮮な野菜が買える道の駅！売り切れに注意！'
+        ],
+
+        ['<a herf="./fureai.html"><img class="ramdom_img_css" src="../static/img_spot/fureai.jpg"></a>',
+        '自然ふれあい交流館',
+        '自然が好きなら1度は行くべき施設！'
+        ],
+
+        ['<a herf="./maizou.html"><img class="ramdom_img_css" src="../static/img_spot/maizou.jpg"></a>',
+        '北海道埋蔵文化財センター',
+        '旧石器時代の出土品・重要文化財が見れる貴重な施設！'
+        ],
+
+        ['<a herf="./matimura_farm.html"><img class="ramdom_img_css" src="../static/img_spot/matimura_farm.jpg"></a>',
+        '町村農場',
+        '全国展開された有名スイーツ店、町村農場の本店！本格的なソフトクリームが大人気！'
+        ],
+
+        ['<a herf="./oldmatimura_farm.html"><img class="ramdom_img_css" src="../static/img_spot/oldmatimura_farm.jpg"></a>',
+        '旧町村農場',
+        '酪農について学べる資料館！多彩なイベントも開催されているので詳しくはHPへ！'
+        ],
+
+        ['<a herf="./senkoen.html"><img class="ramdom_img_css" src="../static/img_spot/senkoen.jpg"></a>',
+        '千古園',
+        '桜の名所でもあり、春には大勢の花見客で賑わい、市の文化財にも指定されています。'
+        ],
+
+        ['<a herf="./yukawa_park.html"><img class="ramdom_img_css" src="../static/img_spot/yukawa_park.jpg"></a>',
+        '湯川公園',
+        '屯田兵屋の住居もあり、紅葉のスポットとして有名な公園！'
+        ],
+
+        ['<a herf="./nisikiyama.html"><img class="ramdom_img_css" src="../static/img_spot/nisikiyama.jpg"></a>',
+        '錦山天満宮',
+        '加藤清正の分霊を守護神として祀ったのが始まりの由緒正しい神社です！'
         ]
+
     ];
 
     var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
@@ -280,22 +349,80 @@ $(function(){
     // 徒歩で大麻
 
     var warkingChoice = [
-        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
-        '道立自然公園野幌森林公園',
-        '森林浴でリフレッシュできるよ？'
-        ],
 
         ['<a href="/currypandora" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>',
         'カレーパンドラ江別店',
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
+<<<<<<< HEAD
+        ['<a herf="./sunabacoebetsu.html"><img class="ramdom_img_css" src="../static/img_spot/sunabacoebetsu.jpg"></a>',
+        'sunabaco ebetsu',
+        '無料で使えるコアワーキングスペース！土日にはいろんなイベントも開催！'
+        ],
+
+        ['<a herf="./houraiken.html"><img class="ramdom_img_css" src="../static/img_spot/houraiken.jpg"></a>',
+        '宝来軒菓子舗',
+        '苺大福などの餅菓子がおすすめ！'
+        ],
+
+        ['<a herf="./ruelle.html"><img class="ramdom_img_css" src="../static/img_spot/ruelle.jpg"></a>',
+        'パティスリー リュエル (Pâtisserie Ruelle)',
+        '本格的なケーキを低価格で提供！'
+        ],
+
+        ['<a herf="./ginza_shoppingstreet.html"><img class="ramdom_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
+        '大麻銀座商店街',
+        '月1でブックストリートを開催！'
+        ],
+
+        ['<a herf="./sizentamago.html"><img class="ramdom_img_css" src="../static/img_spot/sizentamago.jpg"></a>',
+        '自然卵のクレープ',
+        '産地直送の新鮮な卵で作る、ふわふわ焼きたてのクレープ!'
+        ],
+
+        ['<a herf="./motiya.html"><img class="ramdom_img_css" src="../static/img_spot/motiya.jpg"></a>',
+        'もち屋',
+        '本格的な大福が食べられる！隠れ家的なお店が好きな人におすすめ！'
+        ],
+
+        ['<a herf="./santa.html"><img class="ramdom_img_css" src="../static/img_spot/santa.jpg"></a>',
+        'サンタクリーム / ㈲山下館',
+        '毎日がクリスマスをコンセプトのお店。本格派のスイーツ店！'
+        ],
+
+        ['<a herf="./epoa.html"><img class="ramdom_img_css" src="../static/img_spot/epoa.jpg"></a>',
+        'えぽあホール',
+        '旭川家具を使用した木のぬくもりを感じられるコミュニティセンターです！'
+        ],
+
+        ['<a herf="./rakunou.html"><img class="ramdom_img_css" src="../static/img_spot/rakunou.jpg"></a>',
+        '酪農学園大学(牛舎前)',
+        '住宅街のすぐそばに牛が見れるよ！'
+        ],
+
+        ['<a herf="./oasa_shrine.html"><img class="ramdom_img_css" src="../static/img_spot/oasa_shine.jpg"></a>',
+        '大麻神社',
+        '北海道にきた開拓者によって建てられた神社！'
+        ],
+
+        ['<a herf="./donguri.html"><img class="ramdom_img_css" src="../static/img_spot/donguri.jpg"></a>',
+        'どんぐり橋',
+        '一見ただの橋"だが！"住宅街の真ん中にある野鳥,昆虫の巣窟！'
+        ],
+
+        ['<a herf="./douritu_library.html"><img class="ramdom_img_css" src="../static/img_spot/douritu_library.jpg"></a>',
+        '北海道道立図書館',
+        '北海道の歴史を学べる貴重な書籍が数多く残る図書館！近年の改装で居心地Good！'
+        ],
+=======
         ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ]
 
 
+>>>>>>> f2c267aadfa4d3ea222ac6d24e703f1fb88a3d52
     ];
 
     var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
