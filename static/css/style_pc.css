@@ -433,7 +433,8 @@ h3:before {
 	display: flex;
 }
 .box {
-	background-color: brown;
+    background-color: brown;
+    width:100%;
 }
 .box p {
 	color: burlywood;
