@@ -301,7 +301,12 @@ h3:before {
 .container {
 	display: flex;
 }
-
+.box {
+	background-color: brown;
+}
+.box p {
+	color: burlywood;
+}
 
 .box_1 {
 	background-color:ghostwhite;
