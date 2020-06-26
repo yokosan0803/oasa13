@@ -313,7 +313,7 @@ h3:before {
 }
 
 .box_2 {
-	background-color: gray;
+	background-color: ghostwhite;
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
@@ -322,10 +322,11 @@ h3:before {
 
 .shoukai {
 	height: 300px;
-	background-color: olive;
+	background-color:ghostwhite;
 	width: 100%;
 	display: flex;
 	padding: 10px;
+	text-align: left;
 }
 
 .shoukai p {
