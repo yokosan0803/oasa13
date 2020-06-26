@@ -333,11 +333,6 @@ h3:before {
 	padding: 30px;
 }
 
-h1 {
-	font-size: 100px;
-	font-family: "Lucida Grande";
-	background-color: rgb(94, 96, 100);
-}
 
 h2 {
 	background-color: yellowgreen;
@@ -345,10 +340,12 @@ h2 {
 }
 h1 {
 	font-size: 24px;
-	color: rgb(214, 94, 14);
+	color: brown;
 	padding: 20px;
+    background-color: ghostwhite;
 }
-.header {
+
+    .header {
 	background-color:darkslategray;
 	color: #fff;
 	height: 50px;
