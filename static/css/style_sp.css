@@ -347,7 +347,12 @@ h3:before {
 .container {
 	display: flex;
 }
-
+.box {
+	background-color: brown;
+}
+.box p {
+	color: burlywood;
+}
 
 .box_1 {
 	background-color:ghostwhite;
@@ -359,7 +364,7 @@ h3:before {
 }
 
 .box_2 {
-	background-color: gray;
+	background-color: ghostwhite;
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
@@ -368,10 +373,11 @@ h3:before {
 
 .shoukai {
 	height: 300px;
-	background-color: olive;
+	background-color:ghostwhite;
 	width: 100%;
 	display: flex;
 	padding: 10px;
+	text-align: left;
 }
 
 .shoukai p {
@@ -379,11 +385,6 @@ h3:before {
 	padding: 30px;
 }
 
-h1 {
-	font-size: 100px;
-	font-family: "Lucida Grande";
-	background-color: rgb(94, 96, 100);
-}
 
 /* h2 {
 	background-color: yellowgreen;
@@ -391,11 +392,13 @@ h1 {
 } */
 h1 {
 	font-size: 24px;
-	color: rgb(214, 94, 14);
+	color: brown;
 	padding: 20px;
+    background-color: ghostwhite;
 }
-.header {
-	background-color:darkslategray;
+
+    .header {
+	background-color:rgb(224, 111, 46);
 	color: #fff;
 	height: 50px;
 	width: 100%;
@@ -404,7 +407,7 @@ h1 {
 
 .header-logo {
 	float: left;
-	color: tomato;
+	color:ghostwhite;
 	font-size: 18px;
 	padding: 10px 15px;
 	font-family:sans-serif;
