@@ -1,12 +1,12 @@
 $(function(){
     var quizArea = $('.quiz_area'); //クイズを管理するDOMを指定
-    var quiz_html = quizArea.html(); //もう一度　を押した時に元に戻すため初期HTMLを変数で保管
+    var quiz_html = quizArea.html(); //もう一度を押した時に元に戻すため初期HTMLを変数で保管
     var quiz_cnt = 0; //現在の問題数を管理
     var quiz_fin_cnt = 5; //何問で終了か設定（クイズ数以下であること）
     var quiz_success_cnt = 0; //問題の正解数
     
     //クイズの配列を設定
-    //answerの選択肢の数はいくつでもOK　ただし先頭を正解とすること(出題時に選択肢はシャッフルされる)
+    //answerの選択肢の数はいくつでもOK!!ただし先頭を正解とすること(出題時に選択肢はシャッフルされる)
     var aryQuiz = [];
     aryQuiz.push(
         {
@@ -39,6 +39,56 @@ $(function(){
             question : '北海道の冬に欠かせないこれは？',
             answer : ['砂箱', 'こたつ', '郵便ポスト', 'セイコーマート']
         }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/hyakunenkinentou.jpg" alt="">',
+            question : '野幌森林公園内にあるこの塔（百年記念塔）の高さは？',
+            answer : ['25階(100m)', '1m', '8階(23.5m)', '634m']
+        }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+            question : '大麻中央公園にあるのは？',
+            answer : ['大きな池', '大きな川', '大きな海', '大きな滝']
+        }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/senro.jpg" alt="">',
+            question : '札幌から大麻までJRで約何分？',
+            answer : ['17分', '60分', '180分', '3分']
+        }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/nohanasyoubu.jpg" alt="">',
+            question : '江別市東野幌に群生地があるこの花の名は？',
+            answer : ['ノハナショウブ', 'スミレ', '', '']
+        }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/ushi.jpg" alt="">',
+            question : '江別市篠津にある町村農場ミルクガーデンで食べられるのは？',
+            answer : ['新鮮な牛乳で作られたソフトクリーム', '新鮮獲れたて海鮮丼', '世にも珍しいキノコ', 'バターコーン味噌ラーメン']
+        }
+        ,{
+            quizImg : '<img class="img_css" src="../static/img/ainu_people.png" alt="">',
+            question : '「江別」の地名の由来は？',
+            answer : ['アイヌ語のユベオツ (チョウザメのいる川の意) ', 'アイヌ語のウポポイ（大勢で歌うことの意）', 'アイヌ語のピイェ（脂ぎっている）', 'アイヌ語のカムイ（神の意）']
+        }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+        //     question : '？',
+        //     answer : ['', '', '', '']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+        //     question : '？',
+        //     answer : ['', '', '', '']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+        //     question : '？',
+        //     answer : ['', '', '', '']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+        //     question : '？',
+        //     answer : ['', '', '', '']
+        // }
     );
     
     quizReset();
@@ -139,21 +189,33 @@ $(function(){
         return arr;
     }
 
+    // 四択クイズの結果をツイッターでシェア--------------------------------------------
+    $('#twitter_button').click(function() {
+        //出目をHTMLから取得する
+        var result = document.getElementById("quiz_result").innerText;
+        //ツイート内容をセット
+        var tw_contents = ("ぶらり♪えべつくいず " + result + "みんなも挑戦しよう(*ﾟ▽ﾟ)ﾉ！!");
+        var url = "https://sunabaco.com/";
+        //#twitter_buttonのhrefにパラメーターを渡す
+        window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tw_contents + "&count=none&lang=ja");
+    });
+
+
     // ----------------------------------------------------------------
     // 車で大麻
 
     var carChoice = [
-        ['<a href="https://sunabaco.com/"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
+        ['<a href="/sinrinkouen"><img class="random_img_css" src="../static/img/nopporo_park.jpg" alt=""></a>',
         '道立自然公園野幌森林公園',
         '森林浴でリフレッシュできるよ？'
         ],
 
-        ['<a href="./currypandora.html"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
+        ['<a href="/currypandora"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
         'カレーパンドラ江別店',
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
-        ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+        ['<a href="/garasu_kougeikan"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ]
@@ -187,7 +249,7 @@ $(function(){
         '森林浴でリフレッシュできるよ？'
         ],
 
-        ['<a href="./currypandora.html"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>', 
+        ['<a href="/currypandora" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/pandora_carry.jpg" alt=""></a>',
         'カレーパンドラ江別店',
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
@@ -196,6 +258,8 @@ $(function(){
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ]
+
+
     ];
 
     var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
