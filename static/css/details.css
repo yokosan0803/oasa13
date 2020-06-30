@@ -78,7 +78,22 @@ img{
     width: 50%;
 }
 
+a{
+    color: blue;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+
+a:hover{
+    background-position: -100% 0;
+    color: #fff;
+}
+
 .info div{
+    margin-top: 3px;
     background: #fcfcfc;/*背景色*/
     padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
     border: solid 3px gray;/*線の種類 太さ 色*/
@@ -88,6 +103,12 @@ img{
 .info div p{
     line-height: 1.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
+}
+
+#linkicon{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 4px;
 }
 
 #explanation{
