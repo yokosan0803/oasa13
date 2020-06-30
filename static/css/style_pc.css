@@ -344,7 +344,12 @@ h3:before {
     margin: 0 auto;
 
 }
-
+#bottom_ntn{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 50%;
+}
 /* MOREボタンのCSS */
 .btn-square-above-look {
     display: inline-block;
