@@ -51,7 +51,7 @@ $(function(){
             answer : ['25階(100m)', '1m', '8階(23.5m)', '634m']
         }
         ,{
-            quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/numa.jpg" alt="">',
             question : '大麻中央公園にあるのは？',
             answer : ['大きな池', '大きな川', '大きな海', '大きな滝']
         }
@@ -75,11 +75,6 @@ $(function(){
             question : '「江別」の地名の由来は？',
             answer : ['アイヌ語のユベオツ (チョウザメのいる川の意) ', 'アイヌ語のウポポイ（大勢で歌うことの意）', 'アイヌ語のピイェ（脂ぎっている）', 'アイヌ語のカムイ（神の意）']
         }
-        // ,{
-        //     quizImg : '<img class="img_css" src="../static/img/.jpg" alt="">',
-        //     question : '？',
-        //     answer : ['', '', '', '']
-        // }
     );
     
     quizReset();
@@ -193,10 +188,15 @@ $(function(){
 
 
     // ----------------------------------------------------------------
-    // 車で大麻
+    // ランダムで表示させたい画像、場所の名前、一言のセットをしまっておく関数
+    // ['<a href="" target="_blank" rel="noopener"><img class="random_img_css" src="画像のパス" alt=""></a>',
+    // '場所の名前',
+    // '一言'
+    // ],
 
+    // 車で大麻
     var carChoice = [
-        ['<a href="garasu_kougeikan" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+        ['<a href="/garasu_kougeikan" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ],
@@ -312,6 +312,8 @@ $(function(){
         ]
 
     ];
+
+    // ランダムで表示させるための関数
 
     var randCar = carChoice[Math.floor(Math.random() * carChoice.length)];
     $('.car').find('#car_img1').html(randCar[0]);
