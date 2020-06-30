@@ -425,13 +425,13 @@ button:active {
 
 h1 {
 	font-size: 24px;
-	color: brown;
+	color:#AA5C3F;
 	padding: 20px;
     background-color: ghostwhite;
 }
 
     .header {
-	background-color:rgb(224, 111, 46);
+	background-color:#AA5C3F;
 	color: #fff;
 	height: 50px;
 	width: 100%;
