@@ -85,8 +85,9 @@ img{
 }
 
 #explanation{
-    background-color: #6cb4e4;
-    width: 30%;
+    background-color: #e7f0f5;
+    width: 75%;
+    margin: 0 12.5%;
 }
 
 button{
