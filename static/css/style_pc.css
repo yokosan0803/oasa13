@@ -463,6 +463,15 @@ button:active {
 	display: inline-block;
 	width: 50%;
 }
+.box_3 {
+	background-color: ghostwhite;
+	margin-top: 1px;
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+}
+
+
 
 .shoukai {
 	height: 300px;
