@@ -173,7 +173,4 @@ def notfound404(code):
 # __name__ というのは、自動的に定義される変数で、現在のファイル(モジュール)名が入ります。 ファイルをスクリプトとして直接実行した場合、 __name__ は __main__ になります。
 if __name__ == "__main__":
     # Flask が持っている開発用サーバーを、実行します。
-    # app.run(debug=True ,host="0.0.0.0",port=5000)
     app.run()
-    # 192.168.10.45:5000
-    # ipconfig/all
