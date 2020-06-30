@@ -409,7 +409,9 @@ button:active {
 
 .container h2 {
 	background-color:darkslategray;
-	font-size: 20px;
+    font-size: 20px;
+    color: #fff;
+
 }
 h1 {
 	font-size: 24px;
