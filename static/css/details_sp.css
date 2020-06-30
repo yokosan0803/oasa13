@@ -84,6 +84,11 @@ img{
     padding: 0.5em 0; /*前後の文との余白*/
 }
 
+#explanation{
+    background-color: #6cb4e4;
+    width: 30%;
+}
+
 button{
     display: inline-block;
     padding: 0.5em 1em;
@@ -96,6 +101,7 @@ button{
     bottom: 0;
     left: 0;
 }
+
 button:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);

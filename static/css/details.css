@@ -70,6 +70,10 @@ h1:before {
     line-height: 50px;
 }
 
+.info li{
+    text-align: left;
+}
+
 img{
     width: 50%;
 }
@@ -86,6 +90,11 @@ img{
     padding: 0.5em 0; /*前後の文との余白*/
 }
 
+#explanation{
+    background-color: #6cb4e4;
+    width: 30%;
+}
+
 button{
     display: inline-block;
     padding: 0.5em 1em;
@@ -98,10 +107,15 @@ button{
     bottom: 0;
     left: 0;
 }
+
 button:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
     border-bottom: none;
+}
+
+iframe{
+    width:100%;
 }
