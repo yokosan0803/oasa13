@@ -380,7 +380,7 @@ button:active {
 	margin-top: 1px;
 	padding: 20px 20px;
 	display: inline-block;
-	width: 50%;
+	width: 33%;
 	height: 300px;
 }
 
@@ -389,8 +389,18 @@ button:active {
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
-	width: 50%;
+	width: 33%;
 }
+.box_3 {
+	background-color: ghostwhite;
+	margin-top: 1px;
+	padding: 20px;
+	display: inline-block;
+	width: 33%;
+}
+
+
+
 
 .shoukai {
 	height: 300px;
@@ -411,12 +421,6 @@ button:active {
 	background-color:darkslategray;
     font-size: 20px;
     color: #fff;
-}
-h4 {
-    background-color:darkslategray;
-    font-size: 20px;
-    color: #fff;
-    
 }
 
 h1 {
