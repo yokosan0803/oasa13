@@ -399,6 +399,8 @@ h3:before {
 /* 404--------------------------- */
 #tanuki{
 	width: 20%;
+	margin-top: 10px;
+    margin-bottom: 20px;
 }
 #message{
 	width: 50%;
@@ -415,7 +417,8 @@ button{
     border-radius: 3px;
     position: fixed;
     bottom: 0;
-    left: 0;
+	left: 0;
+	width: 30%;
 }
 button:active {
     /*ボタンを押したとき*/
@@ -427,9 +430,6 @@ button:active {
 
 /* ----------------------------------------------------- */
 
-/* body{
-	background-image: url(../img/17022.jpg);
-} */
 .footer {
 	background-color:rgb(224, 111, 46);
 	color: #fff;
