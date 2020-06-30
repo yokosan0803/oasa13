@@ -269,8 +269,14 @@ h3:before {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-
 }
+#bottom_ntn{
+	display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+}
+
 /* MOREボタンのCSS */
 .btn-square-above-look {
     display: inline-block;
@@ -280,7 +286,7 @@ h3:before {
     color: #393939;
 	text-decoration: none;
 	margin-top: 10px;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .btn-square-above-look:before {

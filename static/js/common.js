@@ -155,6 +155,8 @@ $(function(){
         var text = quiz_fin_cnt + '問中' + quiz_success_cnt + '問正解！';
         if(quiz_fin_cnt === quiz_success_cnt){
             text += '<br>素晴らしい全問正解！江別マスターだね！';
+        }else if(quiz_success_cnt==0){
+            text += '<br>あらら、ちょっと難しかったかな？江別に遊びにおいで♪';
         }
         text += '<br><input type="button" value="もう一度挑戦する" class="quiz_restart p-10">';
         quizArea.find('#quiz_result').html(text);
@@ -371,7 +373,7 @@ $(function(){
         '本格的な大福が食べられる！隠れ家的なお店が好きな人におすすめ！'
         ],
 
-        ['<a href="/santa." target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/santa.jpg"></a>',
+        ['<a href="/santa" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/santa.jpg"></a>',
         'サンタクリーム / ㈲山下館',
         '毎日がクリスマスをコンセプトのお店。本格派のスイーツ店！'
         ],
