@@ -145,6 +145,6 @@ a{
 }
 
 a:hover{
-background-position: -100% 0;
-color: #fff;
+    background-position: -100% 0;
+    color: #fff;
 }
