@@ -215,11 +215,7 @@ $(function(){
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
-// <<<<<<< HEAD
-        ['<a href="./garasu_kougeikan"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
-// =======
         ['<a href="/garasu_kougeikan"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
-// >>>>>>> f2c267aadfa4d3ea222ac6d24e703f1fb88a3d52
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ],
@@ -355,7 +351,6 @@ $(function(){
         'ワンコインで美味しいカレーが食べられる！おごチケって知ってる？'
         ],
 
-// <<<<<<< HEAD
         ['<a herf="./sunabacoebetsu.html"><img class="ramdom_img_css" src="../static/img_spot/sunabacoebetsu.jpg"></a>',
         'sunabaco ebetsu',
         '無料で使えるコアワーキングスペース！土日にはいろんなイベントも開催！'
@@ -415,14 +410,13 @@ $(function(){
         '北海道道立図書館',
         '北海道の歴史を学べる貴重な書籍が数多く残る図書館！近年の改装で居心地Good！'
         ],
-// =======
+
         ['<a href="#"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
         '江別市ガラス工芸館',
         '吹きガラス体験してみる？'
         ]
 
 
-// >>>>>>> f2c267aadfa4d3ea222ac6d24e703f1fb88a3d52
     ];
 
     var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
