@@ -36,7 +36,7 @@ $(function(){
             answer : ['おがと先生', 'まっちま先生', 'にんじゃわんこ', 'ひつじ仙人']
         }
         ,{
-            quizImg : '<img class="img_css" src="../static/img/ebetsu_glass.jpg" alt="">',
+            quizImg : '<img class="img_css" src="../static/img/garasu.jpg" alt="">',
             question : 'この建物の名前は？',
             answer : ['江別市ガラス工芸館', 'つぼ八大麻店', '旧町村農場', 'セイコーマート']
         }
@@ -331,6 +331,7 @@ $(function(){
     $('.car').find('#car_img3').html(randCar[0]);
     $('.car').find('#place_name3').text(randCar[1]);
     $('.car').find('#words3').text(randCar[2]);
+
 
 
     // ----------------------------------------------------------------

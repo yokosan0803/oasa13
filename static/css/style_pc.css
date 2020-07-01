@@ -275,8 +275,8 @@ h1 {
 h3 {
     position: relative;
     padding: 0.35em 0.5em;
-    background: #b6e9ff;
-    color: #393939;
+    background: darkslategrey;
+    color: #ffffff;
 	width: 45%;
 	margin: 16px auto;
 }
@@ -290,7 +290,7 @@ h3:before {
     width: calc(100% - 16px);
     height: 0;
     border: solid 8px transparent;
-    border-bottom-color: #b2ddf0;
+    border-bottom-color: #4db6ac;
 }
 
 .car,.wark {
@@ -355,8 +355,8 @@ h3:before {
     display: inline-block;
     position: relative;
     padding: 0.35em 1em;
-    background: #b6e9ff;/*ボタン色*/
-    color: #393939;
+    background: darkslategrey;/*ボタン色*/
+    color: #ffffff;
 	text-decoration: none;
 	margin-top: 10px;
 	font-weight: bold;
@@ -371,7 +371,7 @@ h3:before {
     width: calc(100% - 16px);
     height: 0;
     border: solid 8px transparent;
-    border-bottom-color: #b2ddf0;/*ボタン色より明るめの色に*/
+    border-bottom-color: #4db6ac;/*ボタン色より明るめの色に*/
 }
 
 .btn-square-above-look:hover {
@@ -431,6 +431,9 @@ button:active {
     transform: translateY(4px);/*下に動く*/
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
     border-bottom: none;
+}
+.iii{
+	display: none;
 }
 
 /* ----------------------------------------------------- */
@@ -506,7 +509,7 @@ h1 {
 }
 
     .header {
-	background-color:#AA5C3F;
+	background-color:rgb(224, 111, 46);
 	color: #fff;
 	height: 50px;
 	width: 100%;
