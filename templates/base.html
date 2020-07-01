@@ -13,7 +13,12 @@
 <body>
 <header>
 	<div class="header">
-		<div class="header-logo">ぶらり to 江別</div>
+		<div class="header-logo" onclick="func1()">ぶらり to 江別</div>
+		<script>
+			var func1 = function () {
+				location.pathname="/"
+			}
+		</script>
 		<!-- <div class="header-list">
 			<ul>
 				<li><a href="#sec1">QUIZ</a></li>
