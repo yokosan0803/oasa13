@@ -414,9 +414,6 @@ button:active {
 	display:inline-block;
 } */
 
-.shoukai p {
-	font-size: 20px;
-}
 .box_3 h2{
 	background-color:darkslategray;
     font-size: 20px;
@@ -428,7 +425,7 @@ button:active {
     color: #fff;
 }
 
-h1 {
+.box h2 {
 	font-size: 20px;
 	color:#AA5C3F;
 	padding: 10px;
