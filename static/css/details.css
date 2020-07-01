@@ -93,7 +93,7 @@ a:hover{
 }
 
 .info div{
-    margin-top: 3px;
+    margin-top: 30px;
     background: #fcfcfc;/*背景色*/
     padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
     border: solid 3px gray;/*線の種類 太さ 色*/
@@ -140,5 +140,6 @@ button:active {
 }
 
 iframe{
+    margin-top: 10px;
     width:100%;
 }
