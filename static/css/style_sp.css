@@ -376,7 +376,11 @@ button:active {
 	display: flex;
 }
 .box {
-	background-color: #AA5C3F;
+    background-color:ghostwhite;
+	margin: 1px;
+	display: inline-block;
+	width: 50%;
+    
 }
 .box p {
     color: burlywood;
