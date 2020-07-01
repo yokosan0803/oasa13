@@ -392,8 +392,6 @@ button:active {
 	margin: 1px;
 	display: inline-block;
     width: 50%;
-	height: 200px;
-    
 }
 
 .box_1 {
@@ -401,7 +399,6 @@ button:active {
 	margin: 1px;
 	display: inline-block;
 	width: 50%;
-	height: 200px;
 }
 
 .box_2 {
