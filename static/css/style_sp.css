@@ -425,7 +425,7 @@ button:active {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 20px;
 	color:#AA5C3F;
 	padding: 10px;
     background-color: ghostwhite;
@@ -442,7 +442,7 @@ h1 {
 .header-logo {
 	float: left;
 	color:ghostwhite;
-	font-size: 18px;
+	font-size: 24px;
 	padding: 10px 15px;
 	font-weight: bold;
 }
