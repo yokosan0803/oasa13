@@ -440,16 +440,15 @@ button:active {
 
 .footer {
 	background-color:#AA5C3F;
-	color: #fff;
 	width: 100%;
 	height: 100px;
+	color: #fff;
 }
 .container {
 	display: flex;
 }
 .box {
-    background-color:ghostwhite ;
-    width:100%;
+	background-color: #AA5C3F;
 }
 .box p {
 	color: burlywood;
@@ -460,7 +459,7 @@ button:active {
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
-	width: 33%;
+	width: 50%;
 	height: 300px;
 }
 
@@ -469,7 +468,7 @@ button:active {
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
-	width: 33%;
+	width: 50%;
 }
 .box_3 {
 	background-color: ghostwhite;
@@ -478,9 +477,6 @@ button:active {
 	display: inline-block;
 	width: 33%;
 }
-
-
-
 .shoukai {
 	height: 300px;
 	background-color:ghostwhite;
@@ -494,7 +490,11 @@ button:active {
 	font-size: 20px;
 	padding: 30px;
 }
-
+.box_3 h2{
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
 
 .container h2 {
 	background-color: darkslategray;
@@ -503,7 +503,7 @@ button:active {
 }
 h1 {
 	font-size: 24px;
-	color: brown;
+	color:#AA5C3F;
 	padding: 20px;
     background-color: ghostwhite;
 }
