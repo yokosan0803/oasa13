@@ -421,8 +421,11 @@ button:active {
 	font-size: 20px;
 	padding: 30px;
 }
-
-
+h3 {
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
 .container h2 {
 	background-color:darkslategray;
     font-size: 20px;
