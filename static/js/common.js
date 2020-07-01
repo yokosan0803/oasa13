@@ -425,6 +425,27 @@ $(function(){
     $('.wark').find('#wark_place_name3').text(randWark[1]);
     $('.wark').find('#wark_words3').text(randWark[2]);
 
+// 三つ同じ場所が揃った時にラッキーメッセージ-------------------------------
+// 徒歩で大麻ver.
+    function luclyWark(){
+        var w1 = $("#wark_place_name1").text();
+        var w2 = $("#wark_place_name2").text();
+        var w3 = $("#wark_place_name3").text();
+        if(w1 == w2 && w1 == w3){
+            $('.wark_div').find('#three').show();
+        };
+    };
+luclyWark();
+// 車で大麻ver.
+    function luclyCar(){
+        var c1 = $('#place_name1').text();
+        var c2 = $('#place_name2').text();
+        var c3 = $('#place_name3').text();
+        if(c1 == c2 && c1 == c3){
+            $('.car_div').find('#three').show();
+        };
+    };
+luclyCar();
 
 // ふわっとするやつ--------------------------------------------
 window.onload = function() {

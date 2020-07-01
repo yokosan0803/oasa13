@@ -432,8 +432,14 @@ button:active {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
     border-bottom: none;
 }
-.iii{
+#three{
 	display: none;
+	font-weight: bold;
+	width: 60%;
+	margin: 0 auto;
+}
+#three img{
+	width: 90%;
 }
 
 /* ----------------------------------------------------- */

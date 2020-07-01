@@ -362,6 +362,18 @@ button:active {
     border-bottom: none;
 }
 
+#three{
+	display: none;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#three img{
+    width: 100%;
+}
+
+
 
 /* ----------------------------------------------------- */
 
