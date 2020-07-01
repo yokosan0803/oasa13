@@ -375,15 +375,12 @@ button:active {
 .container {
 	display: flex;
 }
-.box {
+.box_4 {
     background-color:ghostwhite;
 	margin: 1px;
 	display: inline-block;
 	width: 50%;
     
-}
-.box p {
-    color: burlywood;
 }
 
 .box_1 {
@@ -406,13 +403,16 @@ button:active {
 	display: inline-block;
 	width:　50%;
 }
+.box_4 h2{
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
 
-/* .shoukai {
-	height: 200px;
-	background-color:ghostwhite;
-	width: 50%;
-	display:inline-block;
-} */
+
+
+
+
 
 .box_3 h2{
 	background-color:darkslategray;
