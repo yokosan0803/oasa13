@@ -443,13 +443,52 @@ button:active {
 }
 
 /* ----------------------------------------------------- */
-
-.footer {
-	background-color:#AA5C3F;
-	width: 100%;
-	height: 100px;
+.header {
+	background-color:rgb(224, 111, 46);
 	color: #fff;
+	height: 50px;
+	width: 100%;
+
 }
+
+.header-logo {
+	float: left;
+	color:ghostwhite;
+	font-size: 18px;
+	padding: 10px 15px;
+	font-weight: bold;
+}
+
+.header-list li {
+	float: left;
+	padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
 	display: flex;
 }
@@ -481,7 +520,7 @@ button:active {
 	margin-top: 1px;
 	padding: 20px;
 	display: inline-block;
-	width: 33%;
+	width: 50%;
 }
 .shoukai {
 	height: 300px;
@@ -514,26 +553,15 @@ h1 {
     background-color: ghostwhite;
 }
 
-    .header {
-	background-color:rgb(224, 111, 46);
-	color: #fff;
-	height: 50px;
+.footer {
+	background-color:#AA5C3F;
 	width: 100%;
-
+	height: 100px;
+	color: #fff;
 }
 
-.header-logo {
-	float: left;
-	color:ghostwhite;
-	font-size: 18px;
-	padding: 10px 15px;
-	font-weight: bold;
-}
 
-.header-list li {
-	float: left;
-	padding: 10px 10px;
-}
+
 
 /* トップページのボタン */
 .btn-sticky {
