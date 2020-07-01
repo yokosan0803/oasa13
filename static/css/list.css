@@ -98,6 +98,7 @@ h2 {
 
 .content{
     margin-left: 5%;
+    width: 45%;
 }
 
 .content div{
@@ -119,6 +120,7 @@ li {
     color: #505050;
     border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
     text-align: left;
+    width: 90%;
 }
 
 li:before{ 
