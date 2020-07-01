@@ -409,29 +409,28 @@ button:active {
     font-size: 20px;
     color: #fff;
 }
-
-
-
-
-
+.box_1 h2{
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
+.box_2 h2{
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
 
 .box_3 h2{
 	background-color:darkslategray;
     font-size: 20px;
     color: #fff;
 }
-.container h2 {
+/* .container h2 {
 	background-color:darkslategray;
     font-size: 20px;
     color: #fff;
-}
+} */
 
-.box h2 {
-	font-size: 20px;
-	color:#AA5C3F;
-	padding: 10px;
-    background-color: ghostwhite;
-}
 
     .header {
 	background-color:#AA5C3F;
