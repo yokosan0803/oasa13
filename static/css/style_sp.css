@@ -384,7 +384,7 @@ button:active {
 
 .box_1 {
 	background-color:ghostwhite;
-	margin-top: 1px;
+	margin: 1px;
 	display: inline-block;
 	width: 50%;
 	height: 200px;
@@ -392,13 +392,13 @@ button:active {
 
 .box_2 {
 	background-color: ghostwhite;
-	margin-top: 1px;
+	margin: 1px;
 	display: inline-block;
 	width: 50%;
 }
 .box_3 {
 	background-color: ghostwhite;
-	margin-top: 1px;
+	margin: 1px;
 	display: inline-block;
 	width: 33%;
 }
