@@ -406,9 +406,8 @@ button:active {
 .shoukai {
 	height: 200px;
 	background-color:ghostwhite;
-	width: 100%;
-	display: flex;
-	text-align: left;
+	width: 50%;
+	display:inline-block;
 }
 
 .shoukai p {
