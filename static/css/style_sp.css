@@ -405,9 +405,6 @@ button:active {
 	width: 33%;
 }
 
-
-
-
 .shoukai {
 	height: 300px;
 	background-color:ghostwhite;
@@ -459,6 +456,8 @@ h1 {
 	float: left;
 	padding: 10px 10px;
 }
+
+/* トップページのボタン */
 .btn-sticky {
 	display: inline-block;
 	padding: 0.5em 1em;
