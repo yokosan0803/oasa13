@@ -529,6 +529,15 @@ button:active {
 	font-size: 20px;
 	padding: 30px;
 }
+.box_1 h2{
+	background-color:darkslategray;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
 .box_3 h2{
 	background-color:darkslategray;
     font-size: 20px;
