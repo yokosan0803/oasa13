@@ -161,7 +161,7 @@ $(function(){
         text += '<br><input type="button" value="もう一度挑戦する" class="quiz_restart p-10">';
         quizArea.find('#quiz_result').html(text);
         quizArea.find('#quiz_result').show();
-        
+        quizArea.find('.tw').show();
     }
 
 
@@ -424,6 +424,25 @@ $(function(){
     $('.wark').find('#wark_img3').html(randWark[0]);
     $('.wark').find('#wark_place_name3').text(randWark[1]);
     $('.wark').find('#wark_words3').text(randWark[2]);
+
+    window.onload = function() {
+        scroll_effect();
+
+        $(window).scroll(function(){
+         scroll_effect();
+        });
+
+        function scroll_effect(){
+         $('.effect-fade').each(function(){
+          var elemPos = $(this).offset().top;
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          if (scroll > elemPos - windowHeight){
+           $(this).addClass('effect-scroll');
+          }
+         });
+        }
+      };
 
 // 三つ同じ場所が揃った時にラッキーメッセージ-------------------------------
 // 徒歩で大麻ver.
