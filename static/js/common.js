@@ -161,7 +161,7 @@ $(function(){
         text += '<br><input type="button" value="もう一度挑戦する" class="quiz_restart p-10">';
         quizArea.find('#quiz_result').html(text);
         quizArea.find('#quiz_result').show();
-        quizArea.find('.tw').show();
+        
     }
 
 
@@ -447,25 +447,9 @@ luclyWark();
     };
 luclyCar();
 
-// ふわっとするやつ--------------------------------------------
-window.onload = function() {
-    scroll_effect();
-  
-    $(window).scroll(function(){
-     scroll_effect();
-    });
-  
-    function scroll_effect(){
-     $('.effect-fade').each(function(){
-      var elemPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > elemPos - windowHeight){
-       $(this).addClass('effect-scroll');
-      }
-     });
-    }
-};
+
+
+
 
 
 

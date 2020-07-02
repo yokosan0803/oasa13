@@ -70,11 +70,30 @@ h1:before {
     line-height: 50px;
 }
 
+.info li{
+    text-align: left;
+}
+
 img{
     width: 50%;
 }
 
+a{
+    color: blue;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+
+a:hover{
+    background-position: -100% 0;
+    color: #fff;
+}
+
 .info div{
+    margin-top: 30px;
     background: #fcfcfc;/*背景色*/
     padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
     border: solid 3px gray;/*線の種類 太さ 色*/
@@ -84,6 +103,19 @@ img{
 .info div p{
     line-height: 1.5; /*文の行高*/
     padding: 0.5em 0; /*前後の文との余白*/
+}
+
+#linkicon{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 4px;
+}
+
+#explanation{
+    background-color: #e7f0f5;
+    margin:0 30%;
+    width: 30%;
+    text-align: center;
 }
 
 button{
@@ -98,10 +130,16 @@ button{
     bottom: 0;
     left: 0;
 }
+
 button:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
     border-bottom: none;
+}
+
+iframe{
+    margin-top: 10px;
+    width:100%;
 }

@@ -101,13 +101,13 @@ h1 {
 	font-family: "Lucida Grande";
 	background-color: rgb(94, 96, 100);
 }
- */
-/* h2 {
+
+h2 {
 	background-color: yellowgreen;
 	font-size: 20px;
-} */
+}
 
-/* ここから四択クイズのCSS--------------------------------- */
+/* ここから四択クイズのCSS */
 
 .quiz_area{
     position: relative;
@@ -265,11 +265,6 @@ h1 {
     text-decoration: none;
 }
 
-.tw{
-	display: none;
-}
-
-
 /* --------------------------------------------------------------------- */
 /* ここから車&徒歩で大麻のCSS */
 h3 {
@@ -318,8 +313,7 @@ h3:before {
 }
 
 .random_img_css{
-	width: 100%;
-	min-height: 180px;
+    width: 100%;
     max-height: 180px;
 }
 
