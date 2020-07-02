@@ -516,6 +516,17 @@ button:active {
 	display: inline-block;
 	width: 50%;
 }
+.box_4 {
+	background-color: ghostwhite;
+	margin: 1px;
+	display: inline-block;
+	width:60%;
+}
+
+
+
+
+
 /* .shoukai {
 	height: 300px;
 	background-color:ghostwhite;
@@ -547,7 +558,6 @@ button:active {
 	background-color:darkslategray;
     font-size: 20px;
 	color: #fff;
-	width:60%;
 }
 
 
