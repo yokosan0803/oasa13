@@ -546,7 +546,8 @@ button:active {
 .box_4 h2{
 	background-color:darkslategray;
     font-size: 20px;
-    color: #fff;
+	color: #fff;
+	width:60%;
 }
 
 
