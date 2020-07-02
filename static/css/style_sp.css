@@ -162,7 +162,8 @@ img {
     border-radius: 20px;
     display: inline-block;
     box-shadow:0px 3px 4px rgba(0, 0, 0, 0.4);
-	margin-top: 24px;
+    margin-top: 24px;
+    display: none;
 }
 .tw:hover {
     opacity: 0.7;
@@ -370,10 +371,6 @@ button:active {
 }
 
 
-h2 {
-	background-color: yellowgreen;
-	font-size: 20px;
-}
 h1 {
 	font-size: 24px;
 	color: brown;
