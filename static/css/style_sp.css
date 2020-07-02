@@ -28,7 +28,7 @@ a {
 	text-decoration: none;
 }
 img {
-	border: 0px
+	border: 0px;
 	vertical-align: bottom;
 }
 /* --------------------------------------------------- */
@@ -394,7 +394,8 @@ h1 {
 	color:ghostwhite;
 	font-size: 24px;
 	padding: 10px 15px;
-	font-weight: bold;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .header-list li {
