@@ -386,7 +386,8 @@ h1 {
 	background-color:#AA5C3F;
 	color: #fff;
 	height: 50px;
-	width: 100%;
+    width: 100%;
+    position: fixed;
 }
 
 .header-logo {
