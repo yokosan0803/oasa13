@@ -2,7 +2,7 @@ $(function(){
     var quizArea = $('.quiz_area'); //クイズを管理するDOMを指定
     var quiz_html = quizArea.html(); //もう一度を押した時に元に戻すため初期HTMLを変数で保管
     var quiz_cnt = 0; //現在の問題数を管理
-    var quiz_fin_cnt = 5; //何問で終了か設定（クイズ数以下であること）
+    var quiz_fin_cnt = 8; //何問で終了か設定（クイズ数以下であること）
     var quiz_success_cnt = 0; //問題の正解数
     
     //クイズの配列を設定
@@ -31,8 +31,8 @@ $(function(){
             answer : ['野幌森林公園', '大通公園', 'すなばこパーク', '大麻中央公園']
         }
         ,{
-            quizImg : '<img class="img_css" src="../static/img/ogatosan.jpg" alt="">',
-            question : 'このお方は？',
+            quizImg : '<img class="img_css" src="../static/img/namahamu.jpeg" alt="">',
+            question : 'おや？このお方は？',
             answer : ['おがと先生', 'まっちま先生', 'にんじゃわんこ', 'ひつじ仙人']
         }
         ,{
@@ -178,7 +178,7 @@ $(function(){
     }
 
     // 四択クイズの結果をツイッターでシェア--------------------------------------------
-    $('#twitter_button').click(function() {
+    $('#twitter_button').on('click',function() {
         //出目をHTMLから取得する
         var result = document.getElementById("quiz_result").innerText;
         //ツイート内容をセット

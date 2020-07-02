@@ -174,3 +174,4 @@ def notfound404(code):
 if __name__ == "__main__":
     # Flask が持っている開発用サーバーを、実行します。
     app.run()
+# debug=True,host ="0.0.0.0",port=8888
