@@ -2,7 +2,7 @@ $(function(){
     var quizArea = $('.quiz_area'); //クイズを管理するDOMを指定
     var quiz_html = quizArea.html(); //もう一度を押した時に元に戻すため初期HTMLを変数で保管
     var quiz_cnt = 0; //現在の問題数を管理
-    var quiz_fin_cnt = 8; //何問で終了か設定（クイズ数以下であること）
+    var quiz_fin_cnt = 7; //何問で終了か設定（クイズ数以下であること）
     var quiz_success_cnt = 0; //問題の正解数
     
     //クイズの配列を設定
@@ -35,11 +35,11 @@ $(function(){
             question : 'おや？このお方は？',
             answer : ['おがと先生', 'まっちま先生', 'にんじゃわんこ', 'ひつじ仙人']
         }
-        ,{
-            quizImg : '<img class="img_css" src="../static/img/garasu.jpg" alt="">',
-            question : 'この建物の名前は？',
-            answer : ['江別市ガラス工芸館', 'つぼ八大麻店', '旧町村農場', 'セイコーマート']
-        }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/garasu.jpg" alt="">',
+        //     question : 'この建物の名前は？',
+        //     answer : ['江別市ガラス工芸館', 'つぼ八大麻店', '旧町村農場', 'セイコーマート']
+        // }
         ,{
             quizImg : '<img class="img_css" src="../static/img/sunabako.jpg" alt="">',
             question : '北海道の冬に欠かせないこれは？',
@@ -50,26 +50,26 @@ $(function(){
             question : '野幌森林公園内にあるこの塔（百年記念塔）の高さは？',
             answer : ['25階(100m)', '1m', '8階(23.5m)', '634m']
         }
-        ,{
-            quizImg : '<img class="img_css" src="../static/img/numa.jpg" alt="">',
-            question : '大麻中央公園にあるのは？',
-            answer : ['大きな池', '大きな川', '大きな海', '大きな滝']
-        }
-        ,{
-            quizImg : '<img class="img_css" src="../static/img/senro.jpg" alt="">',
-            question : '札幌から大麻までJRで約何分？',
-            answer : ['17分', '60分', '180分', '3分']
-        }
-        ,{
-            quizImg : '<img class="img_css" src="../static/img/nohanasyoubu.jpg" alt="">',
-            question : '江別市東野幌に群生地があるこの花の名は？',
-            answer : ['ノハナショウブ', 'スミレ', 'ナゾノクサ', 'ファイアフラワー']
-        }
-        ,{
-            quizImg : '<img class="img_css" src="../static/img/ushi.jpg" alt="">',
-            question : '江別市篠津にある町村農場ミルクガーデンで食べられるのは？',
-            answer : ['新鮮な牛乳で作られたソフトクリーム', '新鮮獲れたて海鮮丼', '世にも珍しいキノコ', 'バターコーン味噌ラーメン']
-        }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/numa.jpg" alt="">',
+        //     question : '大麻中央公園にあるのは？',
+        //     answer : ['大きな池', '大きな川', '大きな海', '大きな滝']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/senro.jpg" alt="">',
+        //     question : '札幌から大麻までJRで約何分？',
+        //     answer : ['17分', '60分', '180分', '3分']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/nohanasyoubu.jpg" alt="">',
+        //     question : '江別市東野幌に群生地があるこの花の名は？',
+        //     answer : ['ノハナショウブ', 'スミレ', 'ナゾノクサ', 'ファイアフラワー']
+        // }
+        // ,{
+        //     quizImg : '<img class="img_css" src="../static/img/ushi.jpg" alt="">',
+        //     question : '江別市篠津にある町村農場ミルクガーデンで食べられるのは？',
+        //     answer : ['新鮮な牛乳で作られたソフトクリーム', '新鮮獲れたて海鮮丼', '世にも珍しいキノコ', 'バターコーン味噌ラーメン']
+        // }
         ,{
             quizImg : '<img class="img_css" src="../static/img/ainu_people.png" alt="">',
             question : '「江別」の地名の由来は？',
@@ -156,7 +156,7 @@ $(function(){
         if(quiz_fin_cnt === quiz_success_cnt){
             text += '<br>素晴らしい全問正解！江別マスターだね！';
         }else if(quiz_success_cnt==0){
-            text += '<br>あらら、ちょっと難しかったかな？江別に遊びにおいで♪';
+            text += '<br>あらら(*´-`)、ちょっと難しかったかな？江別に遊びにおいで♪';
         }
         text += '<br><input type="button" value="もう一度挑戦する" class="quiz_restart p-10">';
         quizArea.find('#quiz_result').html(text);
