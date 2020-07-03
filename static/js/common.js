@@ -351,63 +351,63 @@ $(function(){
 
         ['<a href="/houraiken" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/houraiken.jpg"></a>',
         '宝来軒菓子舗',
-        '苺大福などの餅菓子がおすすめ！'
-        ],
+        '苺大福などの餅菓子がおすすめ！']
+        // ],
 
-        ['<a href="/ruelle" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/ruelle.jpg"></a>',
-        'パティスリー リュエル (Pâtisserie Ruelle)',
-        '本格的なケーキを低価格で提供！'
-        ],
+        // ['<a href="/ruelle" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/ruelle.jpg"></a>',
+        // 'パティスリー リュエル (Pâtisserie Ruelle)',
+        // '本格的なケーキを低価格で提供！'
+        // ],
 
-        ['<a href="/ginza_shoppingstreet" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
-        '大麻銀座商店街',
-        '月1でブックストリートを開催！'
-        ],
+        // ['<a href="/ginza_shoppingstreet" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/ginza_shoppingstreet.jpg"></a>',
+        // '大麻銀座商店街',
+        // '月1でブックストリートを開催！'
+        // ],
 
-        ['<a href="/sizentamago" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/sizentamago.jpeg"></a>',
-        '自然卵のクレープ',
-        '産地直送の新鮮な卵で作る、ふわふわ焼きたてのクレープ!'
-        ],
+        // ['<a href="/sizentamago" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/sizentamago.jpeg"></a>',
+        // '自然卵のクレープ',
+        // '産地直送の新鮮な卵で作る、ふわふわ焼きたてのクレープ!'
+        // ],
 
-        ['<a href="/motiya" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/motiya.jpg"></a>',
-        'もち屋',
-        '本格的な大福が食べられる！隠れ家的なお店が好きな人におすすめ！'
-        ],
+        // ['<a href="/motiya" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/motiya.jpg"></a>',
+        // 'もち屋',
+        // '本格的な大福が食べられる！隠れ家的なお店が好きな人におすすめ！'
+        // ],
 
-        ['<a href="/santa" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/santa.jpg"></a>',
-        'サンタクリーム / ㈲山下館',
-        '毎日がクリスマスをコンセプトのお店。本格派のスイーツ店！'
-        ],
+        // ['<a href="/santa" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/santa.jpg"></a>',
+        // 'サンタクリーム / ㈲山下館',
+        // '毎日がクリスマスをコンセプトのお店。本格派のスイーツ店！'
+        // ],
 
-        ['<a href="/epoa" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/epoa.jpg"></a>',
-        'えぽあホール',
-        '旭川家具を使用した木のぬくもりを感じられるコミュニティセンターです！'
-        ],
+        // ['<a href="/epoa" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/epoa.jpg"></a>',
+        // 'えぽあホール',
+        // '旭川家具を使用した木のぬくもりを感じられるコミュニティセンターです！'
+        // ],
 
-        ['<a href="/rakunou" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/rakunou.jpg"></a>',
-        '酪農学園大学(牛舎前)',
-        '住宅街のすぐそばに牛が見れるよ！'
-        ],
+        // ['<a href="/rakunou" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/rakunou.jpg"></a>',
+        // '酪農学園大学(牛舎前)',
+        // '住宅街のすぐそばに牛が見れるよ！'
+        // ],
 
-        ['<a href="/oasa_shrine" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/oasa_shrine.jpg"></a>',
-        '大麻神社',
-        '北海道にきた開拓者によって建てられた神社！'
-        ],
+        // ['<a href="/oasa_shrine" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/oasa_shrine.jpg"></a>',
+        // '大麻神社',
+        // '北海道にきた開拓者によって建てられた神社！'
+        // ],
 
-        ['<a href="/donguri" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/donguri.png"></a>',
-        'どんぐり橋',
-        '一見ただの橋"だが！"住宅街の真ん中にある野鳥,昆虫の巣窟！'
-        ],
+        // ['<a href="/donguri" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/donguri.png"></a>',
+        // 'どんぐり橋',
+        // '一見ただの橋"だが！"住宅街の真ん中にある野鳥,昆虫の巣窟！'
+        // ],
 
-        ['<a href="/douritu_library" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/douritu_library.jpg"></a>',
-        '北海道道立図書館',
-        '北海道の歴史を学べる貴重な書籍が数多く残る図書館！近年の改装で居心地Good！'
-        ],
+        // ['<a href="/douritu_library" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img_spot/douritu_library.jpg"></a>',
+        // '北海道道立図書館',
+        // '北海道の歴史を学べる貴重な書籍が数多く残る図書館！近年の改装で居心地Good！'
+        // ],
 
-        ['<a href="garasu_kougeikan" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
-        '江別市ガラス工芸館',
-        '吹きガラス体験してみる？'
-        ]
+        // ['<a href="garasu_kougeikan" target="_blank" rel="noopener"><img class="random_img_css" src="../static/img/ebetsu_glass.jpg" alt=""></a>',
+        // '江別市ガラス工芸館',
+        // '吹きガラス体験してみる？'
+        // ]
     ];
 
     var randWark = warkingChoice[Math.floor(Math.random() * warkingChoice.length)];
