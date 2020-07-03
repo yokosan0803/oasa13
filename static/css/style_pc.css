@@ -424,7 +424,7 @@ button:active {
 	background-color:ghostwhite;
 	margin-top: 1px;
 	padding: 20px;
-	display: inline-block;
+	display: inline;
 	width: 50%;
 	height: 200px;
 }
